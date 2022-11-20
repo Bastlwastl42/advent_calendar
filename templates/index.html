@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>{{ type }} Adventskalender - Tag {{ day }}</title>
+</head>
+<body>
+    <h1>{{ type }} Adventskalender -- Tag {{ day }}</h1>
+    <br><hr><br>
+    <img src={{ image }}, alt="Heutiges Tuerchenbild"> <br>
+    <strong>{{ quote }} </strong>
+    <br><hr><br>
+    <div id="footer">
+        {% block footer %}
+        &copy; Copyright 2020 by <a href="http://domain.invalid/">me</a>.
+        {% endblock %}
+    </div>
+</body>
+</html>
